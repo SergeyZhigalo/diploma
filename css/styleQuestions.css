@@ -1,0 +1,87 @@
+.mainHistory{
+    max-width: 1140px;
+    margin: auto;
+}
+.fromHistory h3, .hiddenContent h3{
+    color: #3a3a3a;
+    font-size: 25px;
+    line-height: 1.4;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.fromHistory p, .hiddenContent p{
+    margin-bottom: 1em;
+    color: #292929;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.85714285714286;
+    font-size: 16px;
+}
+.titleHistory{
+    color: #003E53;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.hiddenContent{
+    overflow: hidden;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+    padding: 10px;
+    text-align: justify;
+}
+.hiddenContent p:nth-last-child(1){
+    margin-bottom: 0;
+}
+.borderBottom{
+    border: 1px solid #d4d4d4;
+}
+.hiddenContent:nth-last-child(1){
+    border: 1px solid #d4d4d4;
+    border-top: none;
+}
+.imageLeft{
+    float: left;
+    padding-right: 10px;
+}
+.imageRight{
+    float: right;
+    padding-left: 10px;
+}
+.imageCenter{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.mainHistory{
+    padding: 20px;
+}
+.mainHistory img{
+    max-width: 100%;
+}
+@media all and (max-width:930px) {
+    .check930px{
+        width: 100%;
+    }
+}
+@media all and (max-width:840px) {
+    .imageVerticalMax{
+        float: none;
+        padding: 0;
+    }
+    .imageVerticalMax, .imageVerticalMax img{
+        width: 100%;
+    }
+}
+@media all and (max-width:700px) {
+    .check700px{
+        width: 100%;
+    }
+}
+@media all and (max-width: 550px) {
+    img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Trebuchet MS */
+@font-face {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Trebuchet/Trebuchet MS.ttf') format("truetype");
+}
+/* cyrillic Playfair Display */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/PlayfairDisplay/cyrillicPlayfairDisplay.woff') format('woff');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext Playfair Display */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/PlayfairDisplay/latin-extPlayfairDisplay.woff') format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin Playfair Display */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/PlayfairDisplay/latinPlayfairDisplay.woff') format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext Roboto 300 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Roboto/cyrillic-extRoboto300.woff2') format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic Roboto 300 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Roboto/cyrillicRoboto300.woff2') format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext Roboto 300 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Roboto/latin-extRoboto300.woff2') format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin Roboto 300 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Roboto/latinRoboto300.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext Roboto 400 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Roboto/cyrillic-extRoboto400.woff2') format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic Roboto 400 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Roboto/cyrillicRoboto400.woff2') format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext Roboto 400 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Roboto/latin-extRoboto400.woff2') format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin Roboto 400 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Roboto/latinRoboto400.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext Roboto 500 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Roboto/cyrillic-extRoboto500.woff2') format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic Roboto 500 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Roboto/cyrillicRoboto500.woff2') format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext Roboto 500 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Roboto/latin-extRoboto500.woff2') format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin Roboto 500 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Roboto/latinRoboto500.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext Roboto 700 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Roboto/cyrillic-extRoboto700.woff2') format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic Roboto 700 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Roboto/cyrillicRoboto700.woff2') format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext Roboto 700 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Roboto/latin-extRoboto700.woff2') format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin Roboto 700 */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Roboto/latinRoboto700.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.active{
+    box-shadow: inset 0 0 0 3px #ffffff;
+}
+.textUniversal{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.85714285714286;
+}
+.heading{
+    padding: 50px 0;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+.sectionColor{
+    background-color: #d1e9e1;
+}
+/*header*/
+.logo {
+    width: 100%;
+    text-align: center;
+    padding: 10px 10px 7px 10px;
+    background-color: #d1e9e1;
+    box-sizing: border-box;
+}
+.logo img{
+    height: 180px;
+}
+.link{
+    display: inline;
+}
+.link a{
+    padding: 15px !important;
+}
+.links{
+    display: none;
+    height: 48px;
+}
+.links a{
+    padding: 15px 0 15px 0;
+    margin-top: 15px;
+    transition: all .1s ease;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.links span{
+    padding: 0 20px 0 20px;
+}
+.hidden{
+    display: none;
+}
+nav{
+    background-color: #003e53;
+    font-family:"Roboto",sans-serif;
+    padding: 5px;
+}
+.dws-menu ul, .dws-menu ol{
+    list-style: none;
+}
+.dws-menu > ul{
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li{
+    position: relative;
+}
+.dws-menu > ul li a{
+    display: block;
+    padding: 15px 20px 15px 20px;
+    transition: all .1s ease;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.dws-menu li a:hover{
+    box-shadow: inset 0 0 0 3px #ffffff;
+    transition: all .1s ease;
+}
+.dws-menu li ul{
+    position: absolute;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+}
+.dws-menu li > ul li{
+    border: 1px solid #00374a;
+}
+.dws-menu li > ul li a{
+    padding: 13px;
+    text-transform: none;
+    background: #003e53;
+}
+.dws-menu li > ul li ul{
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+.dws-menu li:hover > ul{
+    display: block;
+}
+.dws-menu [type="checkbox"], .dws-menu label.toggleSubmenu{
+    display: none;
+}
+.dws-menu label.toggleMenu{
+    display: none;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+}
+/*footer*/
+footer{
+    background-color: #003e53;
+    font-family:"Roboto",sans-serif;
+}
+.footer-main {
+    margin: auto;
+    display: flex;
+    text-align: center;
+    max-width: 1140px;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+.footer-main div{
+    color: #FFF;
+    font-size: 13px;
+    width: 33.3333%;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 1.85714285714286;
+}
+.max_width_1140px{ max-width: 1140px; }
+.text_bold{ font-weight: 700; }
+.no_margin{ margin: 0; }
+
+@media all and (max-width: 950px){
+    /*header*/
+    nav{
+        padding: 0;
+    }
+    .dws-menu{
+        overflow: hidden;
+    }
+    .dws-menu li:hover > ul{
+        display: none;
+    }
+    .dws-menu ul{
+        display: block;
+        max-height: 0;
+        transition: max-height 0.3s;
+    }
+    .dws-menu li>ul li ul{
+        position: absolute;
+        right: auto;
+        top: auto;
+    }
+    .dws-menu label.toggleMenu{
+        display: block;
+    }
+    .toggleMenu{
+        color: #fff;
+    }
+    input.toggleMenu:checked ~ ul, input.toggleSubmenu:checked ~ ul{
+        display: block;
+        position: relative;
+        max-height: 5000px;
+        transition: max-height 2s ease-in;
+    }
+    .dws-menu label.toggleSubmenu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        display: block;
+    }
+    .link{
+        display: none;
+    }
+    .links{
+        display: block;
+        height: 55px;
+    }
+    .links a{
+        text-align: center;
+    }
+    .links a i{
+        width: 16.875px;
+        height: 16.875px;
+        padding: 10px;
+        border: 3px solid white;
+        border-radius: 100px;
+    }
+    .donation{
+        padding-bottom: 10px;
+    }
+}
+
+@media all and (max-width:767px){
+    /*footer*/
+    .footer-main{
+        display: inline;
+    }
+    .footer-main div {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media all and (max-width:481px){
+    .links span{
+        padding: 0 10px 0 10px;
+    }
+    .blockIndexSchedule a, .blockIndexSchedule a i{
+        font-size: 13px;
+    }
+}
+@media all and (max-width:480px){
+    .logo img{
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+}

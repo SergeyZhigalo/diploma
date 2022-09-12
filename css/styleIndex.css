@@ -1,0 +1,325 @@
+.activeIndex{
+    box-shadow: inset 0 0 0 3px #ffffff;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    color: #8daca6;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sectionNewsIndex{
+    overflow: hidden;
+    background-color: #a6a6a6
+}
+.blockNewsIndex{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+}
+.loading{
+    width: 100%;
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+.newsIndex{
+    margin: 1%;
+    background: #ffffff;
+    border-radius: 2% 2% 1% 1%;
+    float: left;
+    width:31%;
+    position: relative;
+}
+.newsIndex:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+.newsIndex img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 2% 2% 0 0;
+}
+.introduction{
+    padding: 0 30px;
+    border-top:0;
+    margin-top: 20px;
+}
+.introduction h2{
+    font-size:21px;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #54595f;
+    font-weight: 600;
+    line-height: 1.4em;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+.introduction a{
+    text-decoration: none;
+}
+.introduction p{
+    margin-bottom:25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #777777;
+}
+.readMoreIndex{
+    color: #003e53;
+    font-family: "Trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+}
+.dataNews{
+    width: calc(100% - 60px);
+    border-top: 1px solid #003e53;
+    padding: 15px 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-size: 12px;
+    color: #adadad;
+    position: absolute;
+    bottom: 0;
+}
+.status{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    background-color: #003e53;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: .6em 1.2em;
+    line-height: 1;
+    border-radius: 300px;
+}
+.sectionLinks{
+    overflow: hidden;
+    background-color: #d1e9e1;
+    /*padding-bottom: 20px;*/
+}
+.mainLinks{
+    display: flex;
+    max-width: 980px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.linksImage{
+    float: left;
+    padding-top: 20px;
+}
+.linksScript{
+    float:right;
+}
+.linksImage, .linksScript{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+.interiorLinksImage{
+    width: 100%;
+}
+.linksImage a{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.linksImage img{
+    display: block;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#linksImage3{
+    margin-bottom: 0;
+}
+.azbyka-saints{
+    padding: 15px;
+}
+.azbyka-saints, .date-today, .date-today a, .saints, .ikons-of-lady, .saint-href, .saints-group-href .saint-href span, .saints-group-href, span{
+    font-family:"Roboto",sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 15px !important;
+}
+.sectionTemple{
+    padding-top: 60px;
+    overflow: hidden;
+}
+.mainTemple{
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.basicInformation{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.basicInformation h3{
+    font-size: 25px;
+}
+.basicInformation div{
+    margin-bottom: 20px;
+}
+.Holidays{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+}
+.infoHolidays{
+    color: #7a7a7a;
+    font-size: 17px;
+}
+.blockIndexSchedule{
+    margin-top: 65px;
+}
+.blockIndexSchedule a{
+    border-radius: 15px;
+}
+.blockIndexSchedule a:hover{
+    background-color: #ff0000;
+    animation: 2s;
+}
+.blockIndexSchedule i{
+    font-weight: 600;
+    font-size: 18px;
+}
+.indexSchedule{
+    font-family: 'Playfair Display', serif;
+    background-color: #e4bc36;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.video{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+.video iframe{
+    max-width: 100%;
+    width: 100%;
+    border: none;
+}
+.iframeMB{
+    margin-bottom: 15px;
+}
+.sectionClergyIndex{
+    padding-top: 60px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.mainClergyIndex{
+    display: flex;
+    max-width: 980px;
+    margin: auto;
+}
+.indexClergyPhoto{
+    width: 50%;
+    float: left;
+}
+.indexClergyPhoto img{
+    width: calc(100% - 40px);
+    padding: 20px;
+}
+.indexClergyInfo{
+    width: 50%;
+    float: right;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.indexClergyInfo h3{
+    font-size: 36px;
+}
+.indexClergyInfo ul{
+    color: #7a7a7a;
+    margin-left: 80px;
+    width: 100% ;
+}
+@media all and (max-width:767px){
+    .newsIndex{
+        width:48%;
+    }
+    .newsIndex:last-child{
+        display: none;
+    }
+    .mainLinks{
+        display: block;
+    }
+    .linksImage, .linksScript{
+        width: 100%;
+    }
+    .interiorLinksImage{
+        width: 75%;
+    }
+    .sectionTemple{
+        padding-top: 40px;
+    }
+    .mainTemple{
+        display: block;
+    }
+    .basicInformation{
+        padding: 2%;
+        width: 96%;
+    }
+    .video{
+        padding: 1%;
+        width: 98%;
+    }
+    .sectionClergyIndex{
+        padding-top: 40px;
+    }
+    .mainClergyIndex{
+        display: block;
+    }
+    .indexClergyPhoto{
+        width: 100%;
+    }
+    .indexClergyPhoto img{
+        width: 98%;
+        padding: 1%;
+    }
+    .indexClergyInfo{
+        width: calc(100% - 40px);
+        display: flex;
+        justify-content: center;
+    }
+    .indexClergyInfo ul {
+        margin: 0;
+    }
+}
+@media all and (max-width:480px){
+    .newsIndex{
+        width:98%;
+    }
+    .interiorLinksImage{
+        width: 100%;
+    }
+}
+@media all and (max-width: 320px) {
+    .indexClergyInfo ul{
+        font-size: 14px;
+    }
+}

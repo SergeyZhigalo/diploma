@@ -1,0 +1,69 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.section{
+    flex: 1 0 auto;
+    margin: auto;
+}
+.section__h3{
+    padding: 50px 0;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+.Clergy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Clergy__image{
+    flex: 3;
+}
+.Clergy__image img{
+    padding: 2.5%;
+    width: 95%;
+}
+.Clergy__info{
+    flex: 7;
+    box-sizing: border-box;
+    padding: 2.5%;
+}
+.Clergy__text{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.3em;
+    color: #7a7a7a;
+    margin-bottom: 10px;
+}
+.Clergy__h3{
+    font-size: 30px;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+.Clergy__heading{
+    margin-bottom: 1.75em;
+}
+footer {
+    flex: 0 0 auto;
+}
+@media (max-width: 767px) {
+    .Clergy{
+        flex-direction: column;
+    }
+    .Clergy__image{
+        order: 1;
+        width: 100%;
+    }
+    .Clergy__info{
+        order: 2;
+    }
+    .Clergy__h3{
+        font-size: 23px;
+    }
+}

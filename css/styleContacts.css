@@ -1,0 +1,76 @@
+.mainContacts{
+    max-width: 1140px;
+    padding: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.leftContacts{
+    margin: 0;
+    width: 50%;
+    float: left;
+}
+.leftContacts p{
+    padding-bottom: 5px;
+}
+.rightContacts{
+    width: 47%;
+    float: right;
+    margin-right: 3%;
+}
+a{
+    text-decoration: none;
+}
+.doubleContacts{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.subtitleContacts{
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.textContacts{
+    font-family: "Roboto", sans-serif;
+    color: #7a7a7a;
+    line-height: 1.8em;
+}
+.addressContacts{
+    width: 43%;
+    float: left;
+    padding: 1%;
+}
+.communicationContacts{
+    width: 53%;
+    float: right;
+    padding: 1%;
+}
+.DrivingDirectionsContacts, .requisitesContacts{
+    padding: 1%;
+    margin-bottom: 20px;
+}
+iframe{
+    border: none;
+    margin: 10px;
+    width: 100%;
+}
+@media all and (max-width:767px){
+    .leftContacts{
+        width: 100%;
+    }
+    .rightContacts{
+        width: 100%;
+        float: right;
+    }
+    .heading{
+        text-align: left;
+    }
+}
+@media screen and (max-width:480px){
+    .doubleContacts, .DrivingDirectionsContacts, iframe, .requisitesContacts{
+        margin-bottom: 5px;
+    }
+    iframe{
+        height: 500px !important;
+    }
+}
